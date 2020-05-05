@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uz.jamshid.lib.WinterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/winter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:snowCount="100"
+    app:snowImage="@drawable/snowflake"
+    app:minSize="20"
+    app:maxSize="30"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="87dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="74dp"
+            android:background="#009688"
+            android:text="Switch board"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="#03A9F4"
+            android:text="Select"
+            android:visibility="visible"
+            tools:text="Select" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="573dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/aaa"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="392dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-85dp"
+            android:text="Please select board..." />
+    </RelativeLayout>
+
+
+</uz.jamshid.lib.WinterLayout>
+
+
+
